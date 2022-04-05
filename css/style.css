@@ -7,7 +7,7 @@
 .hero{
 	height: 100vh;
 	width: 100%;
-	background-image: url(../img/background.png);
+	background-image: url(../img/TYFlQp.png);
 	background-size: cover;
 	background-position: center;
 }
@@ -112,6 +112,7 @@ h4{
 .about img{
 	height: auto;
 	width: 430px;
+
 }
 .about-text{
 	width: 550px;
@@ -301,4 +302,11 @@ footer p:nth-child(2){
 	color:#f9004d;
 	bottom: 35px;
 	font-size: 14px; 
+}
+
+/*	Denne verdien her gir litt rundere kanter på bildet ditt, ser litt pener ut enn firkantet :)	
+Det jeg gjorde var bare å legge til en class på img greia i HTML også skreiv jeg egen styling til bildet her.
+*/
+.person-img {
+border-radius: 50px 50px 50px 50px;
 }
